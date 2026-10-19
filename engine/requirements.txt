@@ -1,0 +1,14 @@
+# What the frozen engine runs on. Exact versions with hashes: requirements.lock
+# (uv pip compile requirements.txt --universal --python-version 3.12 --generate-hashes -o requirements.lock).
+fastapi==0.142.*
+uvicorn==0.54.*
+python-multipart==0.0.*
+pymupdf==1.28.*
+lxml==6.*
+fonttools==4.*
+pillow==12.*
+pillow-heif==1.*
+zxing-cpp==3.*
+# Detection model (engine/ner.py): ONNX runtime and the model's tokenizer.
+onnxruntime==1.31.*
+tokenizers==0.23.*

@@ -1,0 +1,6 @@
+# Tests and the bundle build. Locked in requirements-dev.lock, against requirements.lock
+# (uv pip compile requirements-dev.txt -c requirements.lock --universal --python-version 3.12 --generate-hashes -o requirements-dev.lock).
+pytest==8.*
+python-docx==1.*
+httpx==0.28.*
+pyinstaller==6.*

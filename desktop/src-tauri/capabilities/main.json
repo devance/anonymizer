@@ -1,0 +1,16 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main",
+  "description": "The app window: app commands, native dialogs, and links to devance.ca and the source code only.",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-start-dragging",
+    "core:window:allow-internal-toggle-maximize",
+    "dialog:default",
+    {
+      "identifier": "opener:allow-open-url",
+      "allow": [{ "url": "https://devance.ca/*" }, { "url": "https://www.devance.ca/*" }, { "url": "https://github.com/devance/*" }, { "url": "https://huggingface.co/*" }, { "url": "https://ai.google.dev/*" }]
+    }
+  ]
+}

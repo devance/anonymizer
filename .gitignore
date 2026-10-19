@@ -1,0 +1,27 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+__pycache__/
+.venv/
+*.tsbuildinfo
+.tmp/
+
+# Desktop
+desktop/src-tauri/target/
+desktop/src-tauri/gen/
+.claude/worktrees/
+
+# engine: venv, OCR and detection models (scripts/fetch_models.py), PyInstaller output
+engine/.venv/
+engine/tessdata/
+engine/ner/
+engine/build/
+engine/dist/
+
+# Web: the UI built for the Worker, wrangler's local state and secrets for `wrangler dev`
+ui/dist-web/
+ui/dist-e2e/
+web/e2e/build/
+.wrangler/
+.dev.vars

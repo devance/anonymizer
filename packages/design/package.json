@@ -1,0 +1,15 @@
+{
+  "name": "@devance/design",
+  "version": "0.1.1",
+  "description": "Copy of the Devance design system (devance/design v0.1.1): base and component CSS, font, icons, brand marks.",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./tokens.css": "./css/tokens.css",
+    "./base.css": "./css/base.css",
+    "./components.css": "./css/components.css",
+    "./fonts/*": "./fonts/*",
+    "./icons/*": "./icons/*",
+    "./brand/*": "./brand/*"
+  }
+}
