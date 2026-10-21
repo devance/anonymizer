@@ -1,0 +1,9 @@
+Summary for {{P1_FULL}}
+
+Hi {{P1_FIRST}},
+
+Your home insurance policy {{POLICY}} renews on December 1, 2026. Mr. {{P1_LAST}} and Ms. {{P2_LAST}}
+remain covered at {{CIVIC}} {{STREET_NAME}} Street. The {{P1_LAST}}s should call {{P3_FULL}} at
+{{PHONE2_ALT}} if anything changed. Contact on file: {{EMAIL}}, {{PHONE1_ALT}}.
+
+{{P1_LAST_UPPER}}, {{P1_FIRST}} - born {{DOB_EN}}

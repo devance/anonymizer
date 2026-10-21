@@ -1,0 +1,27 @@
+{
+  "name": "@anon/pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Detection, matching, rendering orchestration and model clients. Runs in the app's WebView and in Node for tests and the bench.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./cli-claude": "./src/cli-claude.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "bench": "tsx scripts/bench-detect.ts"
+  },
+  "dependencies": {
+    "@anon/core": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.0",
+    "vitest": "^4.1.0"
+  }
+}

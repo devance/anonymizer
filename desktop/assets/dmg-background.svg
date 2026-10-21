@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="400" viewBox="0 0 660 400">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.08  0 0 0 0 0.10  0 0 0 0 0.13  0 0 0 0.045 0"/>
+    </filter>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7a2016"/><stop offset=".55" stop-color="#902b1f"/><stop offset="1" stop-color="#6a1a12"/>
+    </linearGradient>
+  </defs>
+  <rect width="660" height="400" fill="#f2f3f5"/>
+  <rect width="660" height="400" filter="url(#grain)"/>
+  <rect x="0" y="0" width="660" height="6" fill="url(#bar)"/>
+  <text x="330" y="66" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial" font-size="19" font-weight="500" fill="#141922" letter-spacing="-0.3">Glissez Devance Anonymiseur dans Applications</text>
+  <text x="330" y="92" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial" font-size="13" fill="#59616e">Drag Devance Anonymiseur to Applications</text>
+  <g fill="none" stroke="#902b1f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M268 214 H384"/>
+    <path d="M372 202 L386 214 L372 226"/>
+  </g>
+  <text x="330" y="336" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial" font-size="11" fill="#59616e">Logiciel libre · devance.ca</text>
+</svg>

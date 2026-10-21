@@ -1,0 +1,176 @@
+/* Devance base: the page foundation. Needs tokens.css first. Styles bare elements (body,
+   headings, links, focus), so an app opts in by loading it; components.css works without it. */
+
+@font-face {
+  font-family: 'Geist';
+  src: url('../fonts/geist.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 400 var(--text-body) / 1.55 var(--sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent) 24%, transparent);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: var(--text-page);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+}
+
+h2 {
+  font-size: var(--text-section);
+  line-height: 1.3;
+  letter-spacing: -0.018em;
+}
+
+h3 {
+  font-size: var(--text-body);
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+}
+
+p {
+  margin: 0;
+  text-wrap: pretty;
+}
+
+code {
+  font-family: var(--mono);
+  font-size: 0.86em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+main:focus {
+  outline: none;
+}
+
+/* Icons are inline SVG at 1em, coloured by currentColor. */
+.dv-icon {
+  width: 1em;
+  height: 1em;
+  flex: none;
+}
+
+.dv-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.dv-num {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Skip link: hidden until focused. */
+.dv-skip {
+  position: absolute;
+  left: 16px;
+  top: -60px;
+  z-index: 30;
+  background: var(--surface);
+  color: var(--text);
+  padding: 10px 16px;
+  border-radius: var(--radius-pill);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+  transition: top 0.2s var(--ease);
+}
+
+.dv-skip:hover {
+  text-decoration: none;
+}
+
+.dv-skip:focus {
+  top: 12px;
+}
+
+/* Soft colour fields and a fine grain, fixed behind everything (one per page). */
+.dv-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: var(--backdrop);
+  pointer-events: none;
+}
+
+.dv-backdrop::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: var(--grain-dark);
+  opacity: var(--page-grain);
+}
+
+/* Reveal on scroll: add .dv-js-reveal to <html> from script (only when motion is welcome), then
+   .is-in to each .dv-reveal as it enters the viewport. Without the script, nothing is hidden. */
+.dv-js-reveal .dv-reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 0.8s var(--ease) var(--delay, 0ms),
+    transform 0.8s var(--ease) var(--delay, 0ms);
+}
+
+.dv-js-reveal .dv-reveal.is-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* Reduced motion: each component turns its own movement off (components.css); the spinner
+   slows to a fade instead of stopping, so work in progress still shows. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .dv-js-reveal .dv-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

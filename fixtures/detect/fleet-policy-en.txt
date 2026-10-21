@@ -1,0 +1,181 @@
+Escarpment General Insurance Company
+through Brantwood Commercial Insurance Brokers Ltd.
+COMMERCIAL AUTOMOBILE POLICY — DECLARATIONS, SCHEDULE OF DRIVERS AND VEHICLES
+Ontario Policy Form OAP 1 with fleet endorsements
+
+Policy number: CA-FL-2026-550914          Term: 2026-09-01 to 2027-09-01 (12:01 a.m. standard time)
+Named insured: Kessler & Vance Haulage Inc.
+Mailing address: 4120 Industrial Parkway North, Unit 9, Cambridge, ON N3H 4R7
+Contact: Graham Kessler, President, (519) 555-0172, gkessler@kvhaulage.example
+Nature of operations: regional dry van and flatbed hauling, Ontario and Quebec, radius under 800 km
+Underwriter: Priscilla Mendoza, commercial lines
+
+1. SCHEDULE OF DRIVERS
+
+#   Driver                    Date of birth   Licence no.          Class   Licensed since   Convictions (3 yrs)
+1   Graham Kessler            1971-03-22      K2741-63810-10322    AZ      1990             none
+2   Moira Vance               1975-12-09      V1528-40227-56209    AZ      1995             1 minor (speeding, 2024)
+3   Dwayne Abernathy          1988-07-15      A1630-81457-80715    DZ      2009             none
+4   Sunita Raghunathan        1992-04-28      R0947-22830-25428    G       2011             none
+
+All listed drivers are employees of the named insured. Driver abstracts dated 2026-08-12 are on file.
+Drivers must hold a valid licence of the class required for the vehicle they operate. Any new driver
+must be reported to the broker within 30 days and is subject to the insurer's acceptance.
+
+2. SCHEDULE OF VEHICLES
+
+| Unit | Year / make / model             | VIN               | Plate     | Principal driver | List price   |
+|------|---------------------------------|-------------------|-----------|------------------|--------------|
+| 01   | 2022 Freightliner Cascadia 126  | 1FUJHHDR8NLNA2849 | AY 74215  | driver 1         | $214,500     |
+| 02   | 2021 Kenworth T680              | 1XKYD49X7MJ431762 | AY 74216  | driver 2         | $198,900     |
+| 03   | 2023 Ford F-550 Super Duty      | 1FDUF5HT5PDA08315 | BK 30187  | driver 3         | $96,400      |
+| T1   | 2019 Great Dane flatbed trailer | non-powered       | T3 8840X  | n/a              | $58,000      |
+
+Unit 02 is leased. Lessor and loss payee: Paccar Financial Ltd., lease no. PFL-ON-4471902, for its
+interest as it may appear. Unit 03 is owned outright.
+
+3. COVERAGES AND LIMITS
+
+Third party liability: $2,000,000 per occurrence, all units.
+Accident benefits: standard, with optional caregiver and income replacement increased to $1,000/week.
+Direct compensation property damage: deductible $0.
+Uninsured automobile: standard.
+All perils: units 01 to 03, deductible $2,500. Trailer T1: specified perils, deductible $1,000.
+Cargo (endorsement OPCF 27C equivalent, insurer form CG-14): $150,000 per load, deductible $5,000.
+Loss of use (OPCF 20): $1,500 per occurrence. Non-owned trailers (OPCF 27B): $60,000.
+
+IMPORTANT NOTICE TO THE INSURED
+
+Please read these declarations carefully and compare them with the information you gave on your
+application. Coverage depends on the accuracy of the drivers, vehicles, operations and radius shown
+here. If anything is wrong or missing, tell your broker right away: a misrepresentation or a failure
+to disclose a material change may allow the insurer to deny a claim or void the policy from the start.
+The insurer collects, uses and discloses personal information about the insured and the listed drivers
+to underwrite this policy, to handle claims, and to detect and prevent fraud, including through
+shared industry claims and driver record databases. Ask your broker for
+a copy of the insurer's privacy policy.
+
+4. CLAIMS HISTORY (5 YEARS)
+
+| Claim no.      | Date of loss | Unit | Driver       | Description                          | Paid        | Status  |
+|----------------|--------------|------|--------------|--------------------------------------|-------------|---------|
+| CL-23-0081473  | 2023-02-11   | 02   | M. Vance     | jackknife on icy ramp, no injuries   | $14,220.00  | closed  |
+| CL-25-0119052  | 2025-06-30   | 03   | D. Abernathy | rear-end collision, third party car  | $3,875.50   | closed  |
+
+Claim CL-25-0119052: third party Brenda Okafor, 22 Wilson Avenue, Kitchener, ON N2G 3T5, vehicle
+repaired, no bodily injury claim. Insured driver found 100% at fault under the Fault Determination Rules.
+
+5. PREMIUM AND PAYMENT
+
+Annual premium: $41,860.00 plus 8% retail sales tax on the premium.
+Payment plan: 12 monthly pre-authorized debits of $3,488.33 from account 00342-004-5528190, starting
+2026-09-01. A cancelled or failed payment will result in a notice of cancellation after 15 days.
+
+6. GENERAL CONDITIONS (SUMMARY)
+
+6.1 The insured must keep each vehicle in safe operating condition and comply with the Highway Traffic
+Act and the Commercial Vehicle Operator's Registration (CVOR) requirements. Any change to the CVOR
+safety rating must be reported to the broker within 10 days.
+
+6.2 Vehicles may not be used to carry passengers for compensation, dangerous goods requiring a
+placard, or loads outside the declared radius of operation without the insurer's written consent.
+
+6.3 The insured must report every accident to the broker as soon as practicable and in any event within
+seven days, and must cooperate with the insurer's investigation, including providing dashcam and
+electronic logging device data where available.
+
+6.4 The insurer may inspect any vehicle and the insured's maintenance records on reasonable notice.
+Maintenance records must be kept for at least two years and include annual safety inspections.
+
+6.5 This policy may be cancelled by the insured at any time on written notice, or by the insurer on 15
+days' notice by registered mail or 5 days' notice if delivered personally. Return premium on
+cancellation by the insured is calculated on the short rate table.
+
+6.6 Statutory conditions under the Insurance Act (Ontario) form part of this policy. In case of
+conflict between this summary and the policy wording, the policy wording prevails.
+
+6.7 Territory: this policy covers the described automobiles while operated in Canada and the
+continental United States. Trips into the United States require proof of the federal minimum
+financial responsibility filing, which the insurer will issue on request for each trip or annually.
+
+6.8 Rating information: premiums are based on the drivers, vehicles, radius and annual distance
+declared in this schedule. The insured must report any change in operations, a new terminal, a new
+regular route or an increase of more than 20% in annual distance within 30 days. The insurer may
+adjust the premium from the date of the change.
+
+6.9 Subrogation: after paying a claim the insurer takes over the insured's rights of recovery against
+any person responsible for the loss. The insured must do nothing after a loss to prejudice these
+rights, and must sign any document reasonably required to exercise them.
+
+6.10 Other insurance: when other valid insurance covers the same loss, this policy pays its rateable
+share, except for non-owned automobiles, where it is excess over any other insurance available to the
+driver or owner.
+
+7. ENDORSEMENTS AND SPECIAL CONDITIONS
+
+7.1 Excluded driver (OPCF 28A): Tyler Kessler, born 2006-05-19, licence K2741-63851-60519. The named
+insured agrees that this person shall not operate any described automobile. This exclusion was signed
+by Graham Kessler on 2026-08-20 and remains in force until removed by endorsement.
+
+7.2 Telematics: units 01 and 02 are enrolled in the insurer's fleet telematics program. Data is used
+for risk management and claims only, and is retained for 24 months.
+
+7.3 Driver training: the insured agrees to have every driver complete the insurer's online winter
+driving module before December 1, 2026. Completion certificates are kept by the safety officer,
+Sunita Raghunathan.
+
+7.4 Additional insured: Waterloo Region Aggregates Corp., only for liability arising from hauling
+under contract no. WRA-2026-118, and only while unit 03 is on their premises.
+
+7.5 Certificate holders: certificates of insurance were issued on 2026-09-01 to the following
+shippers, on request of the named insured and for information only. A certificate does not amend,
+extend or alter the coverage of this policy.
+  - Grand River Cold Storage Inc., Brantford, contract GRC-4418
+  - Waterloo Region Aggregates Corp., Kitchener, contract WRA-2026-118
+  - Norfolk Greenhouse Growers Co-operative, Simcoe, shipper account NGG-00731
+
+7.6 After-hours claims contact for the named insured: Moira Vance, cell 226 555-0119. The insurer's
+24-hour claims line remains the first number to call after an accident.
+
+8. SCHEDULE OF LOCATIONS
+
+| Loc. | Address                                                     | Use                          | Vehicles kept |
+|------|-------------------------------------------------------------|------------------------------|---------------|
+| 1    | 4120 Industrial Parkway North, Unit 9, Cambridge, ON N3H 4R7 | head office, yard, workshop  | 01, 02, T1    |
+| 2    | 2290 Fountain Street North, Cambridge, ON N3E 1A1           | overflow parking, fenced     | 03            |
+
+Yard security at location 2: fenced, locked gate, camera monitored by the owner of the lot,
+Ridgeview Storage Partners, under lease no. RSP-CAM-2291.
+
+9. LOSS CONTROL REPORT SUMMARY
+
+Site visit of 2026-07-29 by Daniel Fortier-Haynes, loss control consultant, who met Graham Kessler and
+the safety officer at location 1. Findings: maintenance records complete for units 01 to 03;
+electronic logging devices installed and reviewed weekly by Ms. Raghunathan; one driver file missing a
+current abstract (since corrected). Recommendation 1: add wheel chocks and a written trailer coupling
+check to the pre-trip routine. Recommendation 2: Mr. Abernathy to complete a defensive driving course
+following claim CL-25-0119052; completed on 2026-08-05, certificate DDC-ON-77821.
+
+10. BROKER AND SIGNATURES
+
+Broker of record: Owen Patterson-Lee, CAIB, 519 555-0148, opattersonlee@brantwoodins.example
+Brantwood Commercial Insurance Brokers Ltd., broker code BRW-0412
+
+The named insured confirms that the information in these declarations is complete and accurate.
+
+______________________________                    ______________________________
+Graham Kessler, President                         Moira Vance, Secretary-Treasurer
+Kessler & Vance Haulage Inc.                      Kessler & Vance Haulage Inc.
+
+Signed at Cambridge, Ontario, on 2026-08-28.
+
+11. DRIVER ACKNOWLEDGEMENTS
+
+Each listed driver confirms having read the named insured's fleet safety policy, the excluded driver
+endorsement and the accident reporting procedure, and consents to the collection of their driver
+record for the term of this policy.
+
+Graham Kessler ............ 2026-08-28
+Moira Vance ............... 2026-08-28
+D. Abernathy .............. 2026-08-30
+S. Raghunathan ............ 2026-08-30

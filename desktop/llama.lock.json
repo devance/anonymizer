@@ -1,0 +1,8 @@
+{
+  "tag": "b11540",
+  "repo": "https://github.com/ggml-org/llama.cpp",
+  "windows": {
+    "asset": "llama-b11540-bin-win-vulkan-x64.zip",
+    "sha256": "ba7ca97704999d24f2f7e7f30870d336462a6693abb4ad78a404671a6c92be83"
+  }
+}

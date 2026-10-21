@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Devance Anonymiseur: the glass D slab of devance.ca on its rust grain panel, on the macOS
+       icon grid (824 px body, 100 px margin). Regenerate the bundle icons with
+       `cd desktop && npx tauri icon assets/app-icon.svg -o src-tauri/icons`. -->
+  <defs>
+    <clipPath id="body">
+      <rect x="100" y="100" width="824" height="824" rx="186" />
+    </clipPath>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7a2016" />
+      <stop offset=".48" stop-color="#902b1f" />
+      <stop offset="1" stop-color="#6a1a12" />
+    </linearGradient>
+    <radialGradient id="pale" cx="825" cy="232" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(825 232) scale(430 590) translate(-825 -232)">
+      <stop offset="0" stop-color="#f0ecec" stop-opacity=".82" />
+      <stop offset=".62" stop-color="#f0ecec" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="warm" cx="611" cy="1089" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(611 1089) scale(370 535) translate(-611 -1089)">
+      <stop offset="0" stop-color="#d67052" stop-opacity=".75" />
+      <stop offset=".65" stop-color="#d67052" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="deep" cx="59" cy="18" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(59 18) scale(535 740) translate(-59 -18)">
+      <stop offset="0" stop-color="#4a100a" />
+      <stop offset=".6" stop-color="#4a100a" stop-opacity="0" />
+    </radialGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="3" stitchTiles="stitch" result="noise" />
+      <feColorMatrix in="noise" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .5 0" result="white" />
+      <feComposite in="white" in2="SourceGraphic" operator="in" />
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="34" />
+    </filter>
+    <filter id="drop" x="-20%" y="-20%" width="140%" height="150%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="14" />
+      <feOffset dy="12" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope=".32" />
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="dshadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="9" />
+      <feOffset dy="10" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope=".2" />
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55" />
+      <stop offset=".38" stop-color="#fff" stop-opacity=".16" />
+      <stop offset=".6" stop-color="#fff" stop-opacity=".07" />
+      <stop offset="1" stop-color="#fff" stop-opacity=".26" />
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".95" />
+      <stop offset=".5" stop-color="#fff" stop-opacity=".55" />
+      <stop offset="1" stop-color="#fff" stop-opacity=".8" />
+    </linearGradient>
+    <!-- The slab: a 550 px rounded square, turned and laid back like the site's tile. -->
+    <rect id="slab" x="-275" y="-275" width="550" height="550" rx="124" />
+  </defs>
+
+  <g filter="url(#drop)">
+    <g clip-path="url(#body)">
+      <rect x="100" y="100" width="824" height="824" fill="url(#base)" />
+      <rect x="100" y="100" width="824" height="824" fill="url(#deep)" />
+      <rect x="100" y="100" width="824" height="824" fill="url(#warm)" />
+      <rect x="100" y="100" width="824" height="824" fill="url(#pale)" />
+      <rect x="100" y="100" width="824" height="824" fill="#fff" filter="url(#grain)" opacity=".16" style="mix-blend-mode: overlay" />
+
+      <!-- The light the slab throws, and its shadow. -->
+      <ellipse cx="512" cy="566" rx="340" ry="220" fill="#ffcdbe" opacity=".45" filter="url(#soft)" />
+      <ellipse cx="520" cy="668" rx="290" ry="100" fill="#1a0604" opacity=".38" filter="url(#soft)" />
+
+      <g transform="translate(512 492) scale(1 .7) rotate(-36)">
+        <!-- Thickness: the edge seen below the face. -->
+        <g transform="rotate(36) scale(1 1.4286)">
+          <g transform="translate(0 36) scale(1 .7) rotate(-36)"><use href="#slab" fill="#fff" opacity=".12" /></g>
+          <g transform="translate(0 24) scale(1 .7) rotate(-36)"><use href="#slab" fill="#fff" opacity=".2" /></g>
+          <g transform="translate(0 12) scale(1 .7) rotate(-36)"><use href="#slab" fill="#fff" opacity=".34" /></g>
+          <g transform="translate(0 5) scale(1 .7) rotate(-36)"><use href="#slab" fill="#fff" opacity=".5" /></g>
+        </g>
+        <use href="#slab" fill="#902b1f" opacity=".6" />
+        <use href="#slab" fill="url(#face)" />
+        <use href="#slab" fill="none" stroke="url(#edge)" stroke-width="5" />
+        <!-- The D, lying on the face. -->
+        <g filter="url(#dshadow)">
+          <g transform="translate(-138 -168) scale(.9)">
+            <g transform="translate(0,384) scale(0.1,-0.1)" fill="#fff">
+              <path d="M1340 3746 c-87 -28 -240 -173 -240 -226 0 -7 -8 -24 -19 -38 -10 -15 -24 -52 -31 -82 -6 -30 -75 -246 -151 -480 -77 -234 -139 -432 -139 -440 1 -25 -102 -333 -121 -360 -9 -14 -22 -50 -29 -80 -6 -30 -56 -192 -110 -360 -54 -168 -104 -330 -110 -360 -7 -30 -20 -66 -29 -80 -19 -27 -81 -215 -81 -242 0 -9 -45 -152 -100 -318 -123 -372 -124 -384 -31 -483 76 -80 48 -77 630 -77 486 0 520 1 581 20 36 11 81 20 100 20 43 0 225 57 262 82 14 10 32 18 40 18 7 0 24 9 38 20 14 11 32 20 40 20 8 0 35 16 60 35 25 19 74 56 110 81 148 107 331 337 389 489 25 64 31 79 49 110 17 30 192 562 192 585 0 10 54 181 120 380 66 199 120 369 120 380 0 10 36 127 80 260 l80 242 0 195 c0 201 -7 254 -42 305 -10 14 -18 31 -18 38 0 45 -176 219 -222 220 -7 0 -24 9 -38 20 -14 11 -31 20 -38 20 -8 0 -26 8 -40 18 -34 23 -99 42 -143 42 -19 0 -63 9 -99 20 -61 19 -93 20 -545 19 -334 -1 -491 -5 -515 -13z m753 -720 c18 -7 47 -29 64 -49 58 -66 57 -74 -56 -415 -56 -169 -101 -314 -101 -322 1 -25 -62 -213 -80 -240 -9 -14 -22 -46 -28 -72 -7 -27 -17 -69 -24 -95 -6 -27 -19 -59 -28 -73 -9 -14 -22 -45 -28 -70 -6 -25 -16 -67 -23 -95 -7 -27 -20 -61 -29 -75 -10 -14 -23 -50 -30 -80 -22 -97 -73 -254 -92 -282 -10 -14 -18 -31 -18 -38 0 -55 -160 -204 -246 -228 -64 -18 -228 -16 -245 4 -15 18 3 103 31 144 9 14 23 50 30 80 6 30 66 219 131 420 66 201 119 372 119 380 0 8 26 98 59 200 32 102 64 210 71 240 7 30 20 66 29 80 20 29 162 456 161 483 0 35 31 85 63 101 42 20 223 22 270 2z" />
+            </g>
+          </g>
+        </g>
+      </g>
+
+      <!-- Glass catching light along the top edge of the body. -->
+      <rect x="101.5" y="101.5" width="821" height="821" rx="184.5" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="3" />
+    </g>
+  </g>
+</svg>

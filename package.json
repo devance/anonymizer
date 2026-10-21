@@ -1,0 +1,16 @@
+{
+  "name": "devance-anonymizer",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "ui",
+    "desktop"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "build:ui": "npm run build -w ui"
+  }
+}

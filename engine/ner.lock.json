@@ -1,0 +1,22 @@
+{
+  "source": "https://huggingface.co/Wismut/nym-pii-multilingual-small",
+  "license": "MIT",
+  "commit": "4348999cd3c2e20c49615e9af7c6bbb45b64cd85",
+  "files": {
+    "model_int8.onnx": {
+      "url": "https://huggingface.co/Wismut/nym-pii-multilingual-small/resolve/4348999cd3c2e20c49615e9af7c6bbb45b64cd85/int8/model_int8.onnx",
+      "size": 138730982,
+      "sha256": "139006aea2cbd8e709d322f056232570de54661f624143be4893aaa387190286"
+    },
+    "tokenizer.json": {
+      "url": "https://huggingface.co/Wismut/nym-pii-multilingual-small/resolve/4348999cd3c2e20c49615e9af7c6bbb45b64cd85/int8/tokenizer.json",
+      "size": 12389891,
+      "sha256": "c299144e68dfec1dc536204a7ae3712710c5c6cade9269a83f5042250d47d8de"
+    },
+    "config.json": {
+      "url": "https://huggingface.co/Wismut/nym-pii-multilingual-small/resolve/4348999cd3c2e20c49615e9af7c6bbb45b64cd85/int8/config.json",
+      "size": 5688,
+      "sha256": "3f07065571e22bb73eba28ddb1fae4509c0cf703762e3bfa7a6ab2111cf7cb88"
+    }
+  }
+}

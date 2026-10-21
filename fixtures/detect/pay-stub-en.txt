@@ -1,0 +1,23 @@
+NORTHGATE MECHANICAL LTD.
+77 Sheppard Avenue East, Suite 1200, Toronto ON M2N 6T7
+
+EARNINGS STATEMENT                                   Pay date: September 12, 2026
+Employee: Arjun Mehta                                Employee ID: NM-008814
+Address: 59 Glenforest Drive, Mississauga ON L5A 2B9 SIN: 446 921 387
+Department: HVAC Service                             Pay period: Aug 25 – Sep 7, 2026
+Date of birth: 1990-07-22                            Bank: RBC transit 04512, account 5093317
+
+Earnings                 Hours      Rate        Current       Year to date
+Regular                  80.00      38.50       3,080.00      58,520.00
+Overtime                  6.00      57.75         346.50       4,111.50
+
+Deductions                                      Current       Year to date
+CPP                                               190.64       3,622.16
+EI                                                 56.20       1,067.80
+Federal tax                                       398.12       7,564.28
+Union dues (Local 46)                              41.00         779.00
+
+Net pay                                         2,740.54
+
+Questions about this statement: payroll@northgatemech.example or Linda Szabo, Payroll, (416) 555-0193.
+Supervisor: G. MacPhail

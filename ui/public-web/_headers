@@ -1,0 +1,11 @@
+# Served with every asset of the web build (Workers Static Assets). The same
+# limits as the desktop window's CSP (desktop/src-tauri/tauri.conf.json), for a
+# page that holds decrypted documents: our own scripts only (pdf.js needs
+# wasm-unsafe-eval and a blob: worker), nothing remote, no framing.
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self' blob:; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: no-referrer
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+  Cross-Origin-Opener-Policy: same-origin

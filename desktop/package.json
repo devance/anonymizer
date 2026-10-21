@@ -1,0 +1,15 @@
+{
+  "name": "@anon/desktop",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Tauri shell of the desktop app: vault, encrypted database, sidecars, model downloads",
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.12.2"
+  }
+}
